@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = import.meta.env.BACKEND_URL;
+const API_URL = "https://aksamedia-ivan-backend.vercel.app/api/api";
 
 const api = axios.create({
   baseURL: API_URL,
